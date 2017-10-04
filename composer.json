@@ -18,7 +18,10 @@
     "laravel": {
       "providers": [
         "V1shky\\Fancyit\\FancyitServiceProvider"
-      ]
+      ],
+      "aliases": {
+        "Fancyit": "V1shky\\Fancyit\\FancyitFacade"
+      }
     }
   }
 }
