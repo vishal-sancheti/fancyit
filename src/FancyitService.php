@@ -20,6 +20,12 @@ class FancyitService
             return $this->upsidedown($string);
         }else if($this->pattern == 'reverse'){
             return strrev($string);
+        }else if($this->pattern == 'uppercase'){
+            return strtoupper($string);
+        }else if($this->pattern == 'lowercase'){
+            return strtolower($string);
+        }else{
+            return $string;
         }
     }
     private function upsidedown($string){
