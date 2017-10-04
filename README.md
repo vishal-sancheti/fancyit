@@ -11,7 +11,7 @@ Add the service provider to config/app.php in the providers array, or if you're 
 
 If you want you can use the facade. Add the reference in config/app.php to your aliases array.
 
-`'Fancyit' => \V1shky\Fancyit\FancyitFacade::class`
+`'Fancyit' => V1shky\Fancyit\FancyitFacade::class`
 
 **Configuration**
 
