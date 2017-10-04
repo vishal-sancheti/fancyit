@@ -13,5 +13,12 @@
     "psr-4": {
       "V1shky\\Fancyit\\": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "V1shky\\Fancyit\\FancyitServiceProvider"
+      ]
+    }
   }
 }
